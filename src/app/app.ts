@@ -1,8 +1,10 @@
 import { Component, signal } from '@angular/core';
+import { Divisor } from './components/divisor/divisor';
+
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [Divisor],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
