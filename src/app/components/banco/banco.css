@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .banco {
     width: 691px;
@@ -12,7 +8,8 @@
     justify-content: space-around;
 
     
-    background-color:#6BD1FF  ;
+    background:var(--gradiente-azul);
+    padding-bottom: 12px;
 }
 
 .boas-vindas {
@@ -27,4 +24,19 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 8px;
+}
+@media screen and (max-width: 71rem) {
+
+  .banco {
+    padding: 3rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4rem;
+  }
+
+  .boas-vindas,
+  .saldo {
+    width: 70%;
+  }
+
 }

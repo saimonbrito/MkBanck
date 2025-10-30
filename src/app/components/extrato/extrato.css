@@ -1,14 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .extrato {
     width: 282px;
-    height: 766px;
+    
     display: flex;
     flex-direction: column;
     gap: 32px;
+
+    background: var(--fundo-azul-claro);
+    padding: 10px;
 }
 .extrato section {
 
