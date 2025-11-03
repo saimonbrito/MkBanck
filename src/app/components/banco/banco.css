@@ -1,7 +1,7 @@
 
 
 .banco {
-    width: 691px;
+     width: 80vw;
     height: 227px;
     display: flex;
     align-items: center;
@@ -25,18 +25,20 @@
     justify-content: space-around;
     gap: 8px;
 }
-@media screen and (max-width: 71rem) {
+@media screen and  (min-width: 1000px) {
 
-  .banco {
-    padding: 3rem 1rem;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 4rem;
-  }
+.banco {
+    width: 60vw;
+}
 
-  .boas-vindas,
-  .saldo {
-    width: 70%;
-  }
+}
+
+@media screen and  (min-width: 1400px) {
+
+.banco {
+
+     width: 950px;
+   
+}
 
 }

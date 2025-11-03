@@ -4,6 +4,7 @@
 .container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 10px;
 
@@ -12,7 +13,17 @@
     margin-top: 100px;
     margin-bottom: 100px;
     
-
+}
+@media screen and (min-width: 1000px) {
+ 
+.container {
+    display: flex;
+    flex-direction: row;
     
     
 }
+    
+
+}
+
+
