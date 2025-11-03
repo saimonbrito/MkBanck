@@ -1,19 +1,12 @@
 <header class="banco">
     
         <div class="boas-vindas">
-            <span>Quinta-feira 08/09/2025</span>
-            <p>Ola, Joana !:)</p>
+            <span>{{dataAtual | date: "EEEE, dd/MM/yyyy" | titlecase }}</span>
+            <h1>Ola, Saimon ! :)</h1>
 
         </div>
         
-        <div class="saldo">
-            <p>Saldo</p>
-            <span>----------------------</span>
-            <p>Conta Corrente</p>
-
-            <span>R$ 2.500,00</span>
+       <app-saldo></app-saldo>
         
-        
-</div>
 </header>
 <app-main></app-main>
